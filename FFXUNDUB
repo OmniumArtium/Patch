@@ -15,8 +15,8 @@ Once you've read that, It's as easy as drag and drop.
 
 Download this folder: https://mega.nz/#F!I9UgFSab!8nsCQ_7xql0XC-JBtVcKcQ!Vkc2EaIa
 
-Install the Molecule app and run it.
-Use your FTP client (press select) and connect to your Vita from your PC (use FileZilla)
+Run MolecularShell
+Start FTP (press select) and connect to your Vita from your PC (use FileZilla)
 Create a new folder in the ux0: location and name it Patch
 Change the name of the downloaded folder to your version: EU = PCSB00395 and US = PCSE00408
 Transfer the renamed folder to ux0:/patch
@@ -39,6 +39,10 @@ ux0:/Patch
               >Version_config
 
 Restart the Vita and play Final Fantasy X - HD as it was meant to be played.
+
+Enjoy! 
+
+- Omnium
 
 Thanks to: 
 
