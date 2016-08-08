@@ -1,0 +1,47 @@
+Final Fantasy X - HD - Undub Files
+
+Contains: 
+
+Audio (VOICES)
+Video (FMV)     
+Subtitles (FIXED)
+
+The MetaMenu folder contains the Credits+Audio Bonus video, It's 500 MB, If you aren't interested, save the space and delete it!
+
+First follow this guide to know how to install HENkaku :: https://github.com/s1cp/VitaGuide/wiki
+Two steps that are important: Installing Henkaku / Copying back
+
+Once you've read that, It's as easy as drag and drop.
+
+Download this folder: https://mega.nz/#F!I9UgFSab!8nsCQ_7xql0XC-JBtVcKcQ!Vkc2EaIa
+
+Install the Molecule app and run it.
+Use your FTP client (press select) and connect to your Vita from your PC (use FileZilla)
+Create a new folder in the ux0: location and name it Patch
+Change the name of the downloaded folder to your version: EU = PCSB00395 and US = PCSE00408
+Transfer the renamed folder to ux0:/patch
+
+That's done, now to edit the file that will make your Vita think you have an update for Final Fantasy X - HD
+
+Find the sce_sys folder of your game, you can find this under ux0:/app/TITLEID
+Transfer this folder to your PC and open it up, you should find a file called param.sfo
+Open the param.sfo file using the following program: https://sites.google.com/site/theleecherman/sfoeditor
+Change the APP_VER parameter of your game file and put something higher, like 1.01 and be sure to save!
+
+Copy this folder into the TITLEID folder under ux0:/Patch 
+File structure should now look like this:
+
+ux0:/Patch
+      >TITLEID
+              >sce_sys
+              >FFX_Data
+              >MetaMenu (optional)
+              >Version_config
+
+Restart the Vita and play Final Fantasy X - HD as it was meant to be played.
+
+Thanks to: 
+
+Mr. Gas and Major Tom for the dumping/mod process.
+The Henkaku devs for providing a new way to run homebrew.
+S1CP for writing the guide for Persona 4 which helped me a lot with this.
